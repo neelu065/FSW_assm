@@ -1,0 +1,1283 @@
+[
+    {
+        "timestamp": "2026-08-04T12:00:00Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.08,
+            "current_A": 1.03,
+            "voltage_V": 28.04,
+            "cpu_usage_percent": 67,
+            "memory_usage_percent": 39,
+            "storage_remaining_GB": 31.9,
+            "watchdog_counter": 2205
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 13,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 12.39
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 33.83
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 41.63
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.919
+        },
+        "gyro": {
+            "temperature_C": 34.89,
+            "angular_rate_degps": [
+                0.00306,
+                0.00184,
+                0.00648
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:00:10Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.3,
+            "current_A": 1.04,
+            "voltage_V": 28.06,
+            "cpu_usage_percent": 68,
+            "memory_usage_percent": 40,
+            "storage_remaining_GB": 31.89,
+            "watchdog_counter": 2402
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 13,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 11.52
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.01
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 42.43
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.834
+        },
+        "gyro": {
+            "temperature_C": 34.9,
+            "angular_rate_degps": [
+                -0.0121,
+                0.01042,
+                0.00311
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:00:20Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.55,
+            "current_A": 1.09,
+            "voltage_V": 27.98,
+            "cpu_usage_percent": 70,
+            "memory_usage_percent": 41,
+            "storage_remaining_GB": 31.88,
+            "watchdog_counter": 2605
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 13,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 11.53
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.25
+        },
+        "fpga": {
+            "utilization_percent": 48,
+            "temperature_C": 42.2
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.774
+        },
+        "gyro": {
+            "temperature_C": 34.95,
+            "angular_rate_degps": [
+                -0.00816,
+                -0.00632,
+                -0.01261
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:00:30Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.39,
+            "current_A": 1.07,
+            "voltage_V": 27.98,
+            "cpu_usage_percent": 65,
+            "memory_usage_percent": 40,
+            "storage_remaining_GB": 31.87,
+            "watchdog_counter": 2805
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 13,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 10.51
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.21
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.29
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.534
+        },
+        "gyro": {
+            "temperature_C": 35.29,
+            "angular_rate_degps": [
+                -0.0101,
+                -0.00362,
+                0.01469
+            ],
+            "health": "OK"
+        },
+        "events": [
+            "FPGA_BOOT_COMPLETE"
+        ]
+    },
+    {
+        "timestamp": "2026-08-04T12:00:40Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.82,
+            "current_A": 1.09,
+            "voltage_V": 28.04,
+            "cpu_usage_percent": 67,
+            "memory_usage_percent": 43,
+            "storage_remaining_GB": 31.86,
+            "watchdog_counter": 3003
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 13,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 10.71
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.36
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.04
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.555
+        },
+        "gyro": {
+            "temperature_C": 35.42,
+            "angular_rate_degps": [
+                -0.00556,
+                0.00466,
+                -0.00313
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:00:50Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.17,
+            "current_A": 1.05,
+            "voltage_V": 28.01,
+            "cpu_usage_percent": 66,
+            "memory_usage_percent": 42,
+            "storage_remaining_GB": 31.85,
+            "watchdog_counter": 3202
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 15,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 10.08
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.66
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 42.22
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.433
+        },
+        "gyro": {
+            "temperature_C": 35.19,
+            "angular_rate_degps": [
+                -0.00019,
+                0.00767,
+                0.01083
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:01:00Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 38.89,
+            "current_A": 1.08,
+            "voltage_V": 27.98,
+            "cpu_usage_percent": 63,
+            "memory_usage_percent": 44,
+            "storage_remaining_GB": 31.84,
+            "watchdog_counter": 3406
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 15,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 9.63
+        },
+        "oscillator": {
+            "locked": false,
+            "temperature_C": 34.79
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.54
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.123
+        },
+        "gyro": {
+            "temperature_C": 35.55,
+            "angular_rate_degps": [
+                0.00753,
+                0.00806,
+                -0.00479
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:01:10Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.16,
+            "current_A": 1.09,
+            "voltage_V": 28.04,
+            "cpu_usage_percent": 63,
+            "memory_usage_percent": 42,
+            "storage_remaining_GB": 31.83,
+            "watchdog_counter": 3609
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 14,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 9.21
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 34.54
+        },
+        "fpga": {
+            "utilization_percent": 48,
+            "temperature_C": 42.74
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 3.068
+        },
+        "gyro": {
+            "temperature_C": 35.35,
+            "angular_rate_degps": [
+                -0.00378,
+                -0.01015,
+                0.0136
+            ],
+            "health": "OK"
+        },
+        "events": [
+            "OSCILLATOR_LOCK_ACQUIRED"
+        ]
+    },
+    {
+        "timestamp": "2026-08-04T12:01:20Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.72,
+            "current_A": 1.08,
+            "voltage_V": 27.94,
+            "cpu_usage_percent": 67,
+            "memory_usage_percent": 45,
+            "storage_remaining_GB": 31.82,
+            "watchdog_counter": 3809
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 16,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 8.54
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 34.7
+        },
+        "fpga": {
+            "utilization_percent": 50,
+            "temperature_C": 42.89
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 2.85
+        },
+        "gyro": {
+            "temperature_C": 35.53,
+            "angular_rate_degps": [
+                -0.01292,
+                0.00782,
+                0.00798
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:01:30Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.43,
+            "current_A": 1.07,
+            "voltage_V": 28.06,
+            "cpu_usage_percent": 63,
+            "memory_usage_percent": 45,
+            "storage_remaining_GB": 31.81,
+            "watchdog_counter": 4010
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 15,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 8.83
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.0
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 42.77
+        },
+        "orbit_determination": {
+            "status": "INITIALIZING",
+            "position_residual_m": 2.78
+        },
+        "gyro": {
+            "temperature_C": 35.67,
+            "angular_rate_degps": [
+                -0.0038,
+                0.01199,
+                -0.00146
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:01:40Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.68,
+            "current_A": 1.09,
+            "voltage_V": 28.01,
+            "cpu_usage_percent": 60,
+            "memory_usage_percent": 44,
+            "storage_remaining_GB": 31.8,
+            "watchdog_counter": 4205
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 16,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 8.21
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 34.82
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.99
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 2.739
+        },
+        "gyro": {
+            "temperature_C": 35.5,
+            "angular_rate_degps": [
+                -0.00786,
+                0.00507,
+                -0.00857
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:01:50Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 39.8,
+            "current_A": 1.09,
+            "voltage_V": 28.05,
+            "cpu_usage_percent": 65,
+            "memory_usage_percent": 46,
+            "storage_remaining_GB": 31.79,
+            "watchdog_counter": 4406
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 16,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 7.19
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.16
+        },
+        "fpga": {
+            "utilization_percent": 48,
+            "temperature_C": 42.67
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 2.527
+        },
+        "gyro": {
+            "temperature_C": 35.82,
+            "angular_rate_degps": [
+                0.0052,
+                0.01452,
+                -0.01205
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:02:00Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.14,
+            "current_A": 1.08,
+            "voltage_V": 27.95,
+            "cpu_usage_percent": 61,
+            "memory_usage_percent": 48,
+            "storage_remaining_GB": 31.78,
+            "watchdog_counter": 4608
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 17,
+            "fix_status": false,
+            "solution_type": "FLOAT",
+            "clock_bias_ns": 7.12
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.11
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 43.1
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 2.315
+        },
+        "gyro": {
+            "temperature_C": 35.92,
+            "angular_rate_degps": [
+                0.01068,
+                -0.01206,
+                0.00456
+            ],
+            "health": "OK"
+        },
+        "events": [
+            "GNSS_FIX_ACQUIRED"
+        ]
+    },
+    {
+        "timestamp": "2026-08-04T12:02:10Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.41,
+            "current_A": 1.12,
+            "voltage_V": 27.96,
+            "cpu_usage_percent": 58,
+            "memory_usage_percent": 46,
+            "storage_remaining_GB": 31.77,
+            "watchdog_counter": 4809
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 18,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 6.78
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.45
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.6
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 2.167
+        },
+        "gyro": {
+            "temperature_C": 35.82,
+            "angular_rate_degps": [
+                0.0128,
+                0.00855,
+                -0.00644
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:02:20Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.68,
+            "current_A": 1.12,
+            "voltage_V": 28.0,
+            "cpu_usage_percent": 62,
+            "memory_usage_percent": 49,
+            "storage_remaining_GB": 31.76,
+            "watchdog_counter": 5007
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 19,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 6.12
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.22
+        },
+        "fpga": {
+            "utilization_percent": 50,
+            "temperature_C": 42.58
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 2.096
+        },
+        "gyro": {
+            "temperature_C": 35.75,
+            "angular_rate_degps": [
+                -0.0007,
+                0.01258,
+                0.00093
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:02:30Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.48,
+            "current_A": 1.08,
+            "voltage_V": 27.93,
+            "cpu_usage_percent": 60,
+            "memory_usage_percent": 50,
+            "storage_remaining_GB": 31.75,
+            "watchdog_counter": 5205
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 19,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 5.62
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.66
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 43.06
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.908
+        },
+        "gyro": {
+            "temperature_C": 35.83,
+            "angular_rate_degps": [
+                0.00472,
+                0.00196,
+                -0.00551
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:02:40Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.79,
+            "current_A": 1.1,
+            "voltage_V": 27.94,
+            "cpu_usage_percent": 60,
+            "memory_usage_percent": 48,
+            "storage_remaining_GB": 31.74,
+            "watchdog_counter": 5410
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 20,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 5.56
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.77
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 42.67
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.891
+        },
+        "gyro": {
+            "temperature_C": 36.09,
+            "angular_rate_degps": [
+                -0.012,
+                0.00113,
+                0.00018
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:02:50Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 40.9,
+            "current_A": 1.1,
+            "voltage_V": 27.97,
+            "cpu_usage_percent": 57,
+            "memory_usage_percent": 48,
+            "storage_remaining_GB": 31.73,
+            "watchdog_counter": 5612
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 21,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 5.4
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.74
+        },
+        "fpga": {
+            "utilization_percent": 50,
+            "temperature_C": 42.74
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.797
+        },
+        "gyro": {
+            "temperature_C": 36.05,
+            "angular_rate_degps": [
+                0.0049,
+                0.01317,
+                -0.01097
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:03:00Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 41.07,
+            "current_A": 1.11,
+            "voltage_V": 28.02,
+            "cpu_usage_percent": 55,
+            "memory_usage_percent": 51,
+            "storage_remaining_GB": 31.72,
+            "watchdog_counter": 5812
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 20,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 4.99
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.94
+        },
+        "fpga": {
+            "utilization_percent": 50,
+            "temperature_C": 43.19
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.681
+        },
+        "gyro": {
+            "temperature_C": 36.34,
+            "angular_rate_degps": [
+                -0.01223,
+                -0.00229,
+                -0.0067
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:03:10Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 41.19,
+            "current_A": 1.11,
+            "voltage_V": 28.04,
+            "cpu_usage_percent": 58,
+            "memory_usage_percent": 51,
+            "storage_remaining_GB": 31.71,
+            "watchdog_counter": 6015
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 22,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 4.33
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.7
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 43.62
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.505
+        },
+        "gyro": {
+            "temperature_C": 36.13,
+            "angular_rate_degps": [
+                -0.01392,
+                -0.00392,
+                0.00158
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:03:20Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 41.62,
+            "current_A": 1.16,
+            "voltage_V": 28.08,
+            "cpu_usage_percent": 53,
+            "memory_usage_percent": 51,
+            "storage_remaining_GB": 31.7,
+            "watchdog_counter": 6210
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 22,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 3.71
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 35.9
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 43.22
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.345
+        },
+        "gyro": {
+            "temperature_C": 36.48,
+            "angular_rate_degps": [
+                0.01422,
+                0.00748,
+                0.01277
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:03:30Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 41.69,
+            "current_A": 1.11,
+            "voltage_V": 27.99,
+            "cpu_usage_percent": 53,
+            "memory_usage_percent": 53,
+            "storage_remaining_GB": 31.69,
+            "watchdog_counter": 6407
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 23,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 4.02
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.21
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 43.64
+        },
+        "orbit_determination": {
+            "status": "CONVERGING",
+            "position_residual_m": 1.273
+        },
+        "gyro": {
+            "temperature_C": 36.52,
+            "angular_rate_degps": [
+                -0.007,
+                0.00862,
+                -0.01176
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:03:40Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 42.26,
+            "current_A": 1.16,
+            "voltage_V": 27.99,
+            "cpu_usage_percent": 57,
+            "memory_usage_percent": 52,
+            "storage_remaining_GB": 31.68,
+            "watchdog_counter": 6606
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 22,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 2.92
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.26
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 43.33
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 1.14
+        },
+        "gyro": {
+            "temperature_C": 36.65,
+            "angular_rate_degps": [
+                -0.00663,
+                0.00424,
+                -0.00301
+            ],
+            "health": "OK"
+        },
+        "events": [
+            "OD_FILTER_CONVERGED"
+        ]
+    },
+    {
+        "timestamp": "2026-08-04T12:03:50Z",
+        "spacecraft_mode": "COMMISSIONING",
+        "payload": {
+            "temperature_C": 42.51,
+            "current_A": 1.12,
+            "voltage_V": 28.08,
+            "cpu_usage_percent": 54,
+            "memory_usage_percent": 55,
+            "storage_remaining_GB": 31.67,
+            "watchdog_counter": 6803
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 24,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 3.26
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.21
+        },
+        "fpga": {
+            "utilization_percent": 46,
+            "temperature_C": 43.61
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.902
+        },
+        "gyro": {
+            "temperature_C": 36.65,
+            "angular_rate_degps": [
+                -0.00191,
+                0.01453,
+                -0.01153
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:04:00Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 42.64,
+            "current_A": 1.14,
+            "voltage_V": 28.0,
+            "cpu_usage_percent": 52,
+            "memory_usage_percent": 52,
+            "storage_remaining_GB": 31.66,
+            "watchdog_counter": 7006
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 25,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 2.62
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.5
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 43.49
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.714
+        },
+        "gyro": {
+            "temperature_C": 36.67,
+            "angular_rate_degps": [
+                -0.00509,
+                -0.00558,
+                0.01044
+            ],
+            "health": "OK"
+        },
+        "events": [
+            "SPACECRAFT_ENTERED_NOMINAL_MODE"
+        ]
+    },
+    {
+        "timestamp": "2026-08-04T12:04:10Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 42.72,
+            "current_A": 1.14,
+            "voltage_V": 27.98,
+            "cpu_usage_percent": 52,
+            "memory_usage_percent": 54,
+            "storage_remaining_GB": 31.65,
+            "watchdog_counter": 7205
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 25,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 1.63
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.47
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 43.81
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.747
+        },
+        "gyro": {
+            "temperature_C": 36.71,
+            "angular_rate_degps": [
+                -0.00597,
+                0.00144,
+                -0.01499
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:04:20Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 42.64,
+            "current_A": 1.16,
+            "voltage_V": 27.99,
+            "cpu_usage_percent": 52,
+            "memory_usage_percent": 55,
+            "storage_remaining_GB": 31.64,
+            "watchdog_counter": 7407
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 26,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 1.31
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.59
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 43.86
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.49
+        },
+        "gyro": {
+            "temperature_C": 36.8,
+            "angular_rate_degps": [
+                0.00358,
+                -0.0122,
+                0.01356
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:04:30Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 42.79,
+            "current_A": 1.14,
+            "voltage_V": 27.93,
+            "cpu_usage_percent": 50,
+            "memory_usage_percent": 57,
+            "storage_remaining_GB": 31.63,
+            "watchdog_counter": 7609
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 26,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 1.55
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.53
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 44.11
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.415
+        },
+        "gyro": {
+            "temperature_C": 36.89,
+            "angular_rate_degps": [
+                -0.00348,
+                -0.00301,
+                -0.01057
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:04:40Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 43.25,
+            "current_A": 1.19,
+            "voltage_V": 28.04,
+            "cpu_usage_percent": 53,
+            "memory_usage_percent": 58,
+            "storage_remaining_GB": 31.62,
+            "watchdog_counter": 7807
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 25,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 1.1
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.88
+        },
+        "fpga": {
+            "utilization_percent": 49,
+            "temperature_C": 43.51
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.217
+        },
+        "gyro": {
+            "temperature_C": 37.01,
+            "angular_rate_degps": [
+                -0.00131,
+                0.00904,
+                0.00503
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:04:50Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 43.61,
+            "current_A": 1.19,
+            "voltage_V": 28.02,
+            "cpu_usage_percent": 51,
+            "memory_usage_percent": 59,
+            "storage_remaining_GB": 31.61,
+            "watchdog_counter": 8010
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 26,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 0.73
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 36.92
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 44.13
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.15
+        },
+        "gyro": {
+            "temperature_C": 36.84,
+            "angular_rate_degps": [
+                -0.00758,
+                0.00413,
+                0.00797
+            ],
+            "health": "OK"
+        },
+        "events": []
+    },
+    {
+        "timestamp": "2026-08-04T12:05:00Z",
+        "spacecraft_mode": "NOMINAL",
+        "payload": {
+            "temperature_C": 43.51,
+            "current_A": 1.14,
+            "voltage_V": 27.97,
+            "cpu_usage_percent": 50,
+            "memory_usage_percent": 57,
+            "storage_remaining_GB": 31.6,
+            "watchdog_counter": 8209
+        },
+        "gnss_receiver": {
+            "tracking_satellites": 26,
+            "fix_status": true,
+            "solution_type": "PPP",
+            "clock_bias_ns": 0.4
+        },
+        "oscillator": {
+            "locked": true,
+            "temperature_C": 37.02
+        },
+        "fpga": {
+            "utilization_percent": 47,
+            "temperature_C": 43.72
+        },
+        "orbit_determination": {
+            "status": "NOMINAL",
+            "position_residual_m": 0.15
+        },
+        "gyro": {
+            "temperature_C": 36.86,
+            "angular_rate_degps": [
+                -0.00858,
+                -0.00255,
+                -0.00507
+            ],
+            "health": "OK"
+        },
+        "events": []
+    }
+]
