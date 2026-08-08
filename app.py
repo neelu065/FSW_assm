@@ -1,11 +1,34 @@
-import json
-import polars as pl
-filename = 'housekeeping_nominal.json'
+import argparse
+from src.fsw_assm.main import hk_main
 
-breakpoint()
-abc = pl.read_json(filename)
-# abc = json.loads(filename)
 
-breakpoint()
+def main():
+    parser = argparse.ArgumentParser(
+        description="Housekeeping Monitor"
+    )
 
-print(abc)
+    parser.add_argument(
+        "--hk_telemetry",
+        default='inputs/housekeeping_nominal.json',
+        help="JSON housekeeping telemetry file"
+    )
+
+    parser.add_argument(
+        "--config",
+        default="inputs/define_threshold.json",
+        help="Threshold configuration file"
+    )
+
+    parser.add_argument(
+        "--output",
+        default="outputs/event_log.json",
+        help="Output event log"
+    )
+
+    args = parser.parse_args()
+
+    hk_main(args)
+
+
+if __name__ == "__main__":
+    main()

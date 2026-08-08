@@ -115,6 +115,17 @@ The output contains the detected housekeeping events, including information such
 * Severity
 * Recommended software action
 
+## Sample output
+``` text
+|Timestamp|               |Subsystem|           |Parameter|           |Severity|                 |Action|
+========================================================================================================================
+2026-08-04T12:00:00Z      payload              temperature_C             WARNING    Record the high temperature and continue monitoring.
+2026-08-04T12:00:00Z      payload              cpu_usage_percent         INFO       No action required.
+2026-08-04T12:00:00Z      payload              memory_usage_percent      INFO       No action required.
+2026-08-04T12:00:00Z      fpga                 temperature_C             INFO       No action required.
+2026-08-04T12:00:00Z      fpga                 utilization_percent       INFO       No action required.
+2026-08-04T12:00:10Z      payload              temperature_C             WARNING    Record the high temperature and continue monitoring.
+```
 ## Notes
 
 * Thresholds can be modified in `inputs/define_threshold.json`.

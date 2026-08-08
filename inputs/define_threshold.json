@@ -1,0 +1,54 @@
+{
+  "thresholds": [
+    {
+      "subsystem": "payload",
+      "parameter": "temperature_C",
+      "warning": 23.0,
+      "error": 40.0,
+      "critical": 45.0,
+      "warning_action": "Record the high temperature and continue monitoring.",
+      "error_action": "Reduce payload activity and monitor the temperature.",
+      "critical_action": "Put the payload into a safe state and reduce the temperature."
+    },
+    {
+      "subsystem": "payload",
+      "parameter": "cpu_usage_percent",
+      "warning": 70.0,
+      "error": 85.0,
+      "critical": 95.0,
+      "warning_action": "Record the high CPU usage and continue monitoring.",
+      "error_action": "Reduce unnecessary processing.",
+      "critical_action": "Stop unnecessary processing and allow the system to recover."
+    },
+    {
+      "subsystem": "payload",
+      "parameter": "memory_usage_percent",
+      "warning": 60.0,
+      "error": 70.0,
+      "critical": 80.0,
+      "warning_action": "Record the high memory usage and continue monitoring.",
+      "error_action": "Free memory that is not needed.",
+      "critical_action": "Stop unnecessary processing and free memory."
+    },
+    {
+      "subsystem": "fpga",
+      "parameter": "temperature_C",
+      "warning": 65.0,
+      "error": 75.0,
+      "critical": 85.0,
+      "warning_action": "Record the high temperature and continue monitoring.",
+      "error_action": "Reduce FPGA activity and monitor the temperature.",
+      "critical_action": "Stop unnecessary FPGA activity and protect the system from overheating."
+    },
+    {
+      "subsystem": "fpga",
+      "parameter": "utilization_percent",
+      "warning": 75.0,
+      "error": 85.0,
+      "critical": 90.0,
+      "warning_action": "Record the high FPGA usage and continue monitoring.",
+      "error_action": "Reduce unnecessary FPGA activity.",
+      "critical_action": "Stop unnecessary FPGA processing."
+    }
+  ]
+}
