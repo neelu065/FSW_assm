@@ -1,0 +1,1242 @@
+[
+  {
+    "timestamp": "2026-08-04T12:00:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.08,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 67,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 39,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 41.63,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:10Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.3,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:10Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 68,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:10Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 40,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:10Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.43,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:10Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:20Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.55,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:20Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 70,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:20Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 41,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:20Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.2,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:20Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:30Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.39,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:30Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 65,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:30Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 40,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:30Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.29,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:30Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:40Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.82,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:40Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 67,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:40Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 43,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:40Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.04,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:40Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:50Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.17,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:50Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 66,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:50Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 42,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:50Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.22,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:00:50Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 38.89,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 63,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 44,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.54,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:10Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.16,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:10Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 63,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:10Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 42,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:10Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.74,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:10Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:20Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.72,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:20Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 67,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:20Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 45,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:20Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.89,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:20Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:30Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.43,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:30Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 63,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:30Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 45,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:30Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.77,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:30Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:40Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.68,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:40Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 60,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:40Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 44,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:40Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.99,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:40Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:50Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 39.8,
+    "severity": "WARNING",
+    "recommended_action": "Record the high temperature and continue monitoring."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:50Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 65,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:50Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:50Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.67,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:01:50Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.14,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 61,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.1,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:10Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.41,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:10Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 58,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:10Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:10Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.6,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:10Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:20Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.68,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:20Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 62,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:20Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:20Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.58,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:20Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:30Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.48,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:30Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 60,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:30Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:30Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.06,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:30Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:40Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.79,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:40Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 60,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:40Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:40Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.67,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:40Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:50Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 40.9,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:50Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 57,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:50Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 48,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:50Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 42.74,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:02:50Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 41.07,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 55,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 51,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.19,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:10Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 41.19,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:10Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 58,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:10Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 51,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:10Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.62,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:10Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:20Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 41.62,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:20Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 53,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:20Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 51,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:20Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.22,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:20Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:30Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 41.69,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:30Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 53,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:30Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 53,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:30Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.64,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:30Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:40Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.26,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:40Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 57,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:40Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 52,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:40Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.33,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:40Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:50Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.51,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:50Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 54,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:50Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 55,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:50Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.61,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:03:50Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 46,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.64,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 52,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 52,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:10Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.72,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:10Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 52,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:10Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 54,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:10Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.81,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:10Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:20Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.64,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:20Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 52,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:20Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 55,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:20Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.86,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:20Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:30Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 42.79,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:30Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:30Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 57,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:30Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 44.11,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:30Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:40Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 43.25,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:40Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 53,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:40Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 58,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:40Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.51,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:40Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 49,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:50Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 43.61,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:50Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 51,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:50Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 59,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:50Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 44.13,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:04:50Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:05:00Z",
+    "subsystem": "payload",
+    "parameter": "temperature_C",
+    "value": 43.51,
+    "severity": "ERROR",
+    "recommended_action": "Reduce payload activity and monitor the temperature."
+  },
+  {
+    "timestamp": "2026-08-04T12:05:00Z",
+    "subsystem": "payload",
+    "parameter": "cpu_usage_percent",
+    "value": 50,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:05:00Z",
+    "subsystem": "payload",
+    "parameter": "memory_usage_percent",
+    "value": 57,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:05:00Z",
+    "subsystem": "fpga",
+    "parameter": "temperature_C",
+    "value": 43.72,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  },
+  {
+    "timestamp": "2026-08-04T12:05:00Z",
+    "subsystem": "fpga",
+    "parameter": "utilization_percent",
+    "value": 47,
+    "severity": "INFO",
+    "recommended_action": "No action required."
+  }
+]
