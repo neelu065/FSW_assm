@@ -21,7 +21,7 @@ def main():
 
     parser.add_argument(
         "--output",
-        default="outputs/event_log.json",
+        default="event_log.json",
         help="Output event log"
     )
 

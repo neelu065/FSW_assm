@@ -1,8 +1,23 @@
-# FSW_ASSM
+# FSW\_ASSM
 
 Housekeeping Telemetry Monitoring and Event Generation Software.
 
 This project implements a configurable housekeeping monitor that reads telemetry data, checks parameters against predefined thresholds, generates events with different severity levels, and writes the resulting event log to an output file.
+
+## Table of Contents
+
+- [Instructions to Run the Code](#instructions-to-run-the-code)
+  - [1. Install `uv`](#1-install-uv)
+  - [2. Install Dependencies](#2-install-dependencies)
+  - [3. Activate the Virtual Environment](#3-activate-the-virtual-environment)
+  - [4. Run the Application](#4-run-the-application)
+- [Project Structure](#project-structure)
+- [Directory Description](#directory-description)
+- [Output](#output)
+- [Sample output](#sample-output)
+- [Notes](#notes)
+- [Additional notes](#additional-notes)
+- [Post review modification](#post-review-modification)
 
 ## Instructions to Run the Code
 
@@ -53,7 +68,7 @@ python app.py
 The generated event log will be written to:
 
 ```text
-outputs/events.json
+outputs/event_log.json
 ```
 
 ## Project Structure
@@ -65,7 +80,7 @@ outputs/events.json
 │   ├── define_threshold.json
 │   └── housekeeping_nominal.json
 ├── outputs
-│   └── events.json
+│   └── event_log.json
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
@@ -85,7 +100,7 @@ outputs/events.json
 | `app.py`                           | Application entry point                            |
 | `inputs/define_threshold.json`     | Configuration file containing parameter thresholds |
 | `inputs/housekeeping_nominal.json` | Input housekeeping telemetry data                  |
-| `outputs/events.json`              | Generated event log                                |
+| `outputs/event_log.json`           | Generated event log                                |
 | `src/fsw_assm/main.py`             | Main application logic                             |
 | `src/fsw_assm/threshold_check.py`  | Threshold checking and severity determination      |
 | `src/fsw_assm/utils.py`            | Common utility functions                           |
@@ -98,25 +113,32 @@ outputs/events.json
 After running:
 
 ```bash
-python app.py
+python app.py 
+```
+
+OR
+
+```bash
+python app.py --hk_telemetry <telemetry filename> --config <threshold filename> --output <event log filename>
 ```
 
 the application generates an event log at:
 
 ```text
-outputs/events.json
+outputs/event_log.json
 ```
 
 The output contains the detected housekeeping events, including information such as:
 
-* Timestamp
-* Subsystem
-* Violated parameter
-* Severity
-* Recommended software action
+- Timestamp
+- Subsystem
+- Violated parameter
+- Severity
+- Recommended software action
 
 ## Sample output
-``` text
+
+```text
 |Timestamp|               |Subsystem|           |Parameter|           |Severity|                 |Action|
 ========================================================================================================================
 2026-08-04T12:00:00Z      payload              temperature_C             WARNING    Record the high temperature and continue monitoring.
@@ -126,9 +148,19 @@ The output contains the detected housekeeping events, including information such
 2026-08-04T12:00:00Z      fpga                 utilization_percent       INFO       No action required.
 2026-08-04T12:00:10Z      payload              temperature_C             WARNING    Record the high temperature and continue monitoring.
 ```
+
 ## Notes
 
-* Thresholds can be modified in `inputs/define_threshold.json`.
-* Housekeeping telemetry can be provided through `inputs/housekeeping_nominal.json`.
-* The `outputs` directory is created automatically if it does not already exist.
-* Run the application from the **project root directory** so that the configured input and output paths resolve correctly.
+- Thresholds can be modified in `inputs/define_threshold.json`.
+- Housekeeping telemetry can be provided through `inputs/housekeeping_nominal.json`.
+- The `outputs` directory is created automatically if it does not already exist.
+- Run the application from the **project root directory** so that the configured input and output paths resolve correctly.
+
+## Additional notes
+
+- `https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=6066&context=smallsat`
+
+## Post review modification
+
+- bug fixed: write_event_log by passing the CLI passed filename bug fixed.
+- Work on test cases, error handling, CCSDS packet structure, task scheduling, and FDIR state machine. [work in progress]

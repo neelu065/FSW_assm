@@ -3,11 +3,11 @@ import os
 
 
 def write_event_log(events, filename, output_dir='outputs'):
-
+    # breakpoint()
     os.makedirs(output_dir, exist_ok=True)
-    filename = os.path.join(output_dir, "events.json")
+    # filename = os.path.join(output_dir, "events.json")
 
-    with open(filename, "w") as file:
+    with open(os.path.join(output_dir, filename), "w") as file:
         json.dump(events, file, indent=2)
 
 
