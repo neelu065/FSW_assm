@@ -3,20 +3,32 @@ from .write_log import print_event_log, write_event_log
 
 def hk_main(args):
 
-    # Read both json files
-    packets = load_json_file(args.hk_telemetry)
-    config = load_json_file(args.config)
+    try:
+        # Read both json files
+        packets = load_json_file(args.hk_telemetry)
+        config = load_json_file(args.config)
 
-    # Parse the threshold
-    rules = config["thresholds"]
+        if not isinstance(config, dict):
+            raise TypeError("Configuration JSON must contain an object")
 
-    # Compare the telemetry data with threshold values
-    events = monitor_telemetry(packets, rules)
+        if "thresholds" not in config:
+            raise KeyError("Configuration is missing required field: thresholds")
 
-    # print the log to the console and save it to json
-    print_event_log(events)
-    write_event_log(events, args.output)
+        # Parse the threshold
+        rules = config["thresholds"]
 
-    print(f"Event log written to: {args.output}")
+        # Compare the telemetry data with threshold values
+        events = monitor_telemetry(packets, rules)
 
-    return None
+        # print the log to the console and save it to json
+        print_event_log(events)
+        write_event_log(events, args.output)
+
+        print(f"Event log written to: {args.output}")
+
+        # return None
+        return None
+
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as e:
+        print(f"Housekeeping monitor error: {e}")
+        return 1
