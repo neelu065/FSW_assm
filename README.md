@@ -18,6 +18,7 @@ This project implements a configurable housekeeping monitor that reads telemetry
 - [Notes](#notes)
 - [Additional notes](#additional-notes)
 - [Post review modification](#post-review-modification)
+- [Run test_cases](#pytest)
 
 ## Instructions to Run the Code
 
@@ -79,17 +80,31 @@ outputs/event_log.json
 ├── inputs
 │   ├── define_threshold.json
 │   └── housekeeping_nominal.json
+├── LICENSE
+├── notes
+│   ├── Coding task.pdf
+│   ├── FS architecture [Task 1].pdf
+│   ├── FSE PSR.pdf
+│   ├── TASK_2.pdf
+│   ├── Task_3.pdf
+│   └── VyomIC general.pdf
 ├── outputs
 │   └── event_log.json
-├── LICENSE
 ├── pyproject.toml
 ├── README.md
+├── sample_results.json
 ├── src
-│   └── fsw_assm
-│       ├── main.py
-│       ├── threshold_check.py
-│       ├── utils.py
-│       └── write_log.py
+│   ├── fsw_assm
+│   │   ├── main.py
+│   │   ├── threshold_check.py
+│   │   ├── utils.py
+│   │   └── write_log.py
+│   └── test
+│       ├── __init__.py
+│       ├── test_main.py
+│       ├── test_threshold_check.py
+│       ├── test_utils.py
+│       └── test_write_log.py
 └── uv.lock
 ```
 
@@ -163,4 +178,12 @@ The output contains the detected housekeeping events, including information such
 ## Post review modification
 
 - bug fixed: write_event_log by passing the CLI passed filename bug fixed.
-- Work on test cases, error handling, CCSDS packet structure, task scheduling, and FDIR state machine. [work in progress]
+- sample test cases and error handling is completed.
+
+## pytest
+
+- Implemented test cases using pytest. Change the CWD to `src/` folder and run the following:
+
+```bash
+pytest
+```
